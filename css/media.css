@@ -1,0 +1,286 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+       /* header start */
+   header{
+    padding: 0px;
+
+}
+.logo{
+    margin-bottom: 0rem;
+    font-size: 20px;
+}
+.menu ul li a{
+   
+    padding: 0 0px !important;
+
+    
+}
+.h_icon {
+    padding-left: 0px;
+}
+.box {
+    display: none;
+}
+.h_icon a i{
+    color: var(--black);
+    font-size: 16px;
+    padding-inline: 0px;
+
+}
+/* header end */
+
+    
+    
+ 
+  /* banner start */
+  .b_text {
+    text-align: revert-layer;
+    margin-top: 135px;
+    margin-left: 131px;
+}
+.b_h1 {
+    margin: 10px 40px 20px 0px;
+    font-size: 2.75rem;
+  
+}
+/* banner end */
+/* home card start */
+.hc_pa {
+    padding-bottom: 39px !important;
+}
+.hc_p1 {
+    padding-right: 0px;
+}
+.hc_text{
+    padding: 58px 39px 40px 39px;
+}
+/* home card end */
+/* feature start */
+.co_item {
+    margin: 30px 0px 0;
+    padding: 20px 15px 20px;
+}
+/* feature end */
+/* lorem start */
+.l_h1 {
+    font-size: 30px !important;
+   
+}
+.l_text {
+    padding: 74px 39px 43px 39px;
+}
+.l_h1 {
+    font-size: 26px !important;
+}
+/* lorem end */
+/* button start */
+.s_button button{
+    padding: 6px 12px !important;
+}
+/* button end */
+/* footer start */
+ul li {
+    list-style: none;
+    float: left;
+    margin-left: 3px;
+    margin-bottom: 0px;
+    margin-top: -23px;
+}
+/* footer end */
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+      	
+    /* header start */
+    header{
+        padding: 0px;
+
+    }
+    .logo{
+        margin-bottom: 0rem;
+    }
+    .menu ul li a{
+       
+        padding: 0 0px !important;
+    
+        
+    }
+    .h_icon {
+        padding-left: 0px;
+    }
+    .box {
+        display: none;
+    }
+    .h_icon a i{
+        color: var(--black);
+        font-size: 16px;
+        padding-inline: 0px;
+    
+    }
+
+     /* header end */
+      /* banner start */
+    .b_h1 {
+        margin: 10px 40px 20px 0px;
+        font-size: 2.75rem;
+      
+    }
+    /* banner end */
+    /* button start */
+.s_button button{
+    padding: 6px 12px !important;
+}
+/* button end */
+ 
+
+    
+
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /* header start */
+   ul li {
+    margin-left: -20px !important;
+}
+.h_icon {
+    padding-left: 0px;
+}
+.box {
+    display: none;
+}
+.h_icon a i {
+    padding-inline:0px;
+}
+   /* header end */
+    /* banner start */
+    .b_h1 {
+        margin: 10px 40px 20px 0px;
+        font-size: 2.75rem;
+      
+    }
+    /* banner end */
+    /* home card start */
+    .hc_text {
+        padding: 61px 38px 0px 19px;
+        margin: -65px 34px -70px 45px;
+        justify-content: center !important;
+    }
+    .hc_p1 {
+        padding-right: 3px;
+    }
+    .hc_pa {
+        padding-bottom: 12px !important;
+    }
+    .hc_h1{
+       
+
+        /* padding-top: 13px !important; */
+    }
+   
+
+    /* home card end */
+    /* feature start */
+    .fc_item {
+        margin: 40px 120px 0;
+    }
+    /* feature end */
+    /* lorem start */
+    .l_pa {
+        padding-bottom: 0px !important;
+    }
+    .l_text {
+        padding: 49px 20px 0px 20px;
+    }
+    /* lorem end */
+    /* button start */
+.s_button button{
+    padding: 6px 12px !important;
+}
+/* button end */
+   
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   /* header start */
+   .h_icon{
+    padding-left: 50px;
+  }
+
+   /* header end */
+    /* .banner start */
+
+    .b_h1 {
+        margin: 10px 40px 20px 0px;
+        font-size: 2.75rem;
+      
+    }
+    /* .banner start */  
+ /* home card start */
+ .hc_p1 {
+    padding-right: 30px !important;
+}
+.hc_text {
+    margin: -65px 40px -27px 50px;
+    padding: 69px 24px 10px 24px;
+    justify-content: center !important;
+}
+ /* home card start */
+  /* lorem start */
+  .l_text {
+    padding: 80px 39px 80px 39px;
+}
+.l_pa {
+    padding-bottom: 47px !important;
+}
+/* lorem end */
+ } 
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* header start */
+    .h_icon {
+        padding-left: 170px;   
+    }
+    /* header end */
+    /*home card start  */
+    .hc_text {
+        padding: 48px 39px 35px 39px;
+    }
+    
+    /*home card end  */
+    /* lorem start */
+    .l_text {
+        padding: 100px 69px 75px 39px;
+    }
+    .l_pa {
+        padding-bottom: 65px !important;
+    }
+    /* lorem end */
+} 
+   
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+
+   
+ @media (min-width: 1400px) {
+    /* .banner start */
+    .b_h1 {
+        margin: 10px 40px 20px 0px;
+        font-size: 3.75rem;
+      
+    }
+   
+    /* .banner end */
+   
+    /* footer start */
+    ul li {
+        list-style: none;
+        float: left;
+        margin-left: 25px;
+    }
+         /*footer end  */
+  
+   
+}
